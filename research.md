@@ -5,66 +5,54 @@ desc: Check out what we're working on
 nav: Research
 ---
 
-# How do neurons see the world?
+## CNV Autism project
+Correlation study of the Vineland, ADOS, Mullen scores with the global copy number burden for Autistic and control individuals.
+*	Analyzed global copy number burden for pathogenic events
+*	Performed correlation analysis of the cohort with previously published environmental data
+### Biofilter: A knowledge-integration system for Annotation and Model development of genomic data 									   
+*	Developed methods for annotation of genomic regions, such as, CNVs
+*	Integrated public databases into a meta-database, Library of Knowledge Integration
+### ChIP-exo data analysis 								    
+*	Developed a pipeline for detection of overlap between CTCF-binding motif locations with the peak co-ordinates determined by Genetrack software using Python and BedTools.
 
-Typical neuroscience experiments start by assuming we know the set of variables that drive neural activity. But what if neurons are tuned to variables we would never have guessed? What if, as with social interaction, the stimulus set is too complex to be boiled down to a few dimensions. With [Jeff Beck](https://www.neuro.duke.edu/research/faculty-labs/beck-lab), we're [developing models](http://arxiv.org/abs/1512.01408) that infer stimulus categories *directly from data*, allowing us to "tag" images and movies based on neural responses.
-<div class="row">
-  <div class="col-md-4">
-    <figure>
-        <img src="https://web.duke.edu/mind/level2/faculty/pearson/assets/images/website/cbp_model.svg" class="img-responsive">
-        <figcaption>
-            Neural responses are sums of sensitivities to binary image "tags."
-        </figcaption>
-    </figure>
-  </div>
-  <div class="col-md-8">
-    <figure>
-        <img src="https://web.duke.edu/mind/level2/faculty/pearson/assets/images/website/imgclust_web.svg" class="img-responsive">
-        <figcaption>
-            In an example dataset, the model correctly tagged monkey faces, whole monkeys, and monkey body parts.
-        </figcaption>
-    </figure>
-  </div>
-</div>
+### Determining the sequence of the Y chromosome from whole genome alignment 
+*	Performed quality check for the Illumina reads of the human Korean genome AK1.
+*	Simulated short-reads of the male genome using wgsim in SamTools.
+*	Aligned the human genome (hg18) against the male genome using Bowtie.
+*	Assembled the unaligned reads using Velvet.
+*	Aligned the assembled reads against the Y chromosome using LASTZ to check for coverage of the Y chromosome that could be retrieved.
+### Study of genetic diversity and population structure of the endangered marsupial Sarcophilus harrisii (Tasmanian devil)                                     
+*	Aligned cDNA sequences of Monodelphis to the Tasmanian devil’s genome using LASTZ.
+*	Filtered low-complexity alignment results and false positive overlapping alignments.
+*	Mapped SNP positions to aligned devil’s genome sequences.
 
-# Opening up the skull
+George Mason University, VA                                                                    Aug 2008 – Dec 2009
+Graduate Assistant
+### SVM based approach for analyzing PPI’s of Treponema pallidum
+*	Prepared training and test data from high confidence interaction and experimental data
+*	Extracted attributes as k-mers, hydropathy, aminoacid content, jaccard coefficient
+*	Generated prediction method based on kernel based classifier
+*	Evaluated performance of model using Weka and SVM light
+### A benchmark study of de-novo short-read assemblers 
+*	Analyzed the performance of de-novo short-read assemblers such as Velvet, SSAKE, EDENA, VCAKE, ABySS, using ABI SOLiD data from the genome sequence of Adenovirus type 22
+Topology prediction Project
+*	   Predicted topology of Transmembrane alpha-helix of protein through Hidden Markov Models
+*	   Prepared a script in python and used Viterbi algorithm approach 
+Human Genome Database Project 						    
+*	   Prepared a database with a user-friendly web-interface for information of human genes
+*	   Used Perl, MySQL and HTML, and displayed the results via the web-interface
+Bioinformatics Project/Dissertation                                                      Jan 2007 – June 2008
+IBI Biosolutions, Chandigarh, India
+*	Assisted private bioinformatics company with drug designing and restriction enzyme database
+*	Developed a drug through In Silico Drug designing technique for Botulinum Neurotoxin of Clostridium botulinum 
+*	Collaborated with software developers and created a database of restriction enzymes using PERL and PHP
+Cloning Project                                                                                       June 2006 – July 2006
+National Botanical Research Institute, Lucknow, India 2006
+*	Cloned partial fragment of Mango cellulose gene and analyzed its expression patterns for a National Institute to identify and catalog degrees of Mango ripeness
+*	Learned RNA extraction techniques and extracted RNA from mango leaves and fruit
+Cytotoxicity assessment Project                                                          June 2005 – July 2005
+Industrial Toxicology Research Centre, Lucknow, India 
+*	Acquired knowledge of basic tools and techniques used in animal cell and tissue culture
+*	Learned operation of various software guided tools for biochemical and molecular studies related to in vitro toxicology
+Assessed the cytotoxic potential profile of rotenone, a pyrethroid pesticide in L929 cells
 
-For most neuroscientists, studying the brain means either using noninvasive brain imaging techniques like EEG or fMRI in humans or using more precise but invasive methods in animal models. However, when patients with Parkinson's Disease or epilepsy undergo brain surgery, we have a rare opportunity to study brain activity at the most detailed level in human beings. Together with collaborators in [neurosurgery, neurology, and biomedical engineering](people.html#collaborators) we're investigating the processes underlying self-control, social interaction, and language with a precision rarely available in humans.
-
-
-# Eye tracking unplugged
-
-Where we look speaks volumes about what we're thinking. For over a century, psychologists and neurobiologists have used the movements of the eyes and measurements of pupil size to study the mind, but the need for experimental control has limited our ability to study eye movements in naturalistic settings. In P[&lambda;]ab, we are pairing new advances in [eye tracking](http://www.tobiipro.com/product-listing/tobii-pro-glasses-2/) technology with methods in [computer vision](blog/2015/11/06/eye_tracking_tech.html) and machine learning to tackle the challenge of studying eye movements in real-world settings, with applications ranging from treatment of acute fear to how we view art.
-
-<div class="row">
-  <div class="col-md-4">
-    <figure>
-        <div class="video-container">
-            <iframe width="730" height="410" src="https://www.youtube.com/embed/E6c9Z0Mkc-E?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <figcaption>
-            Mapping gaze between three and two dimensions.
-        </figcaption>
-    </figure>
-  </div>
-  <div class="col-md-4">
-    <figure>
-        <div class="video-container">
-            <iframe width="730" height="410" src="https://www.youtube.com/embed/fSl6FiyHTes?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <figcaption>
-            Gaze mapping free viewing of art.
-        </figcaption>
-    </figure>
-  </div>
-  <div class="col-md-4" style="padding: 0 0 0 0">
-    <figure>
-        <a href="http://jeffmacinnes.com/research/gazeMapping/sonhouse3D/index.html">
-            <img src="https://web.duke.edu/mind/level2/faculty/pearson/assets/images/website/dynamicGaze.png" class="img-responsive" style="margin: 7 0 7 0">
-        </a>
-        <figcaption>
-            Three dimensional reconstruction of viewer position.
-        </figcaption>
-    </figure>
-  </div>
-</div>
