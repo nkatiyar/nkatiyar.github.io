@@ -2,7 +2,7 @@
 layout: default
 title: Current Projects
 desc: Check out what we're working on
-nav: Research
+nav: Teaching
 ---
 
 ### The Pennsylvania State University, PA                                                      Aug 2010 – Sep 2013
