@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Current Projects
+title: Teaching experience
 desc: Check out what we're working on
 nav: Teaching
 ---
 
-#### University of California, Riverside							Current
+#### University of California, Riverside (Oct 2013 - Current)
 WORKSHOPS
 *	Organized and instructed workshop Advanced Graphics with R at the University of California, Riverside, Sept, 2017
 *	Organized and instructed workshop Programming with R at the University of California, Riverside, Sept, 2017
@@ -16,7 +16,7 @@ WORKSHOPS
 *	Instructed workshop Web-based Analysis of Next Generation Sequence Data for 75 participants including graduate students, postdocs, faculty and researchers from United States, Australia, United Kingdom at the University of California, Riverside, Dec 2013
 *	Organized RNA-Seq workshop at the Bioinformatics and Genomics Retreat for 40 participants including students and researchers at the Pennsylvania State University, September 2012
 
-#### The Pennsylvania State University, PA                                                      Aug 2010 – Sep 2013
+#### The Pennsylvania State University, PA (Aug 2010 – Sep 2013)
 Teaching Assistant, Genomics class						
 *	Developed and presented lectures to students and trained them to use Galaxy for ChIP-Seq data analysis.
 *	Responsible for grading and discussing assignments for graduate students.

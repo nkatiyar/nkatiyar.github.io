@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Current Projects
+title: Research Projects
 desc: Check out what we're working on
-nav: Research
+nav: Research_Projects
 ---
 
 ### The Pennsylvania State University, PA                                                      Aug 2010 – Sep 2013
